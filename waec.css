@@ -1,0 +1,86 @@
+body{
+    background: fixed;
+    background-color: rgb(231, 227, 0);
+    text-align: center;
+    font-size: 27px;
+    margin: 0;
+  background-image: url('backk.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:5px ;
+    padding: 20px;
+    font-size: 70px;
+    color: #0e043d;
+}
+
+.list{
+color:rgb(0, 0, 0) ;
+font-size: 25px;
+width: 400px; 
+height: 70px; 
+padding: 10px; 
+border: 2px solid rgb(37, 2, 2); 
+margin: 20px;
+box-sizing: border-box; 
+border-radius: 14px;
+margin-top: 30px;
+display: flex;
+transition: 0.3s;
+}
+.list:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(1, 1, 24);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #0e043d;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.logo{
+    margin-right: auto;
+    align-content: flex-start;
+    margin-right: 600px;
+}
+img{
+  float: left;
+  margin-left:10px;
+}
